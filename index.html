@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <title>Главная</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="header-top-container">
+            <div class="top-menu">
+                <ul class="menu">
+                    <li class="item">
+                        <a href="#">О клинике</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Лицензии и сертификаты</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Акции</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <div class="tel">
+                    <a href="tel:+7(927) 540-65-37">+7(927) 540-65-37</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid-container" id="header-mid-container">
+            <div class="info-block">
+                <div class="logo-block">
+                    <img src="./assets/img/icons/Logo.svg" alt="" srcset="">
+                </div>
+                <div class="city">
+                    <img src="./assets/img/icons/city_icon.svg" alt="" srcset="">
+                    <p class="city-text">Москва</p>
+                </div>
+            </div>
+    
+            <div class="social-block">
+                <div class="social-items">
+                    <a href=""><img src="./assets/img/icons/soc/wa.svg" alt="" srcset=""></a>
+                    <a href=""><img src="./assets/img/icons/soc/vk.svg" alt="" srcset=""></a>
+                    <a href=""><img src="./assets/img/icons/soc/tg.svg" alt="" srcset=""></a>
+                </div>
+                <div class="btn-block">
+                    <div class="call-btn">
+                        <a href="tel:+">Позвонить</a>
+                    </div>
+                    <div class="zayav-btn">
+                        <p>Записаться на прием</p>
+                    </div>
+                </div>
+                <div class="menu-btn" id="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="header-bottom-container" id="header-bottom-container">
+                <!-- <ul class="bottomMenu">
+                    <li class="main-items">
+                        <a href="#">Вывод из запоя</a>
+                        <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                        <ul>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница от запоя</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Экстренное вытрезвление</a>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="main-items">
+                        <a href="#">Алкоголизм</a>
+                        <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                        <ul>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница от запоя</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Экстренное вытрезвление</a>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="main-items">
+                        <a href="#">Кодирование</a>
+                        <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                        <ul>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница от запоя</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Экстренное вытрезвление</a>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="main-items">
+                        <a href="#">Лечение от алкоголизма</a>
+                        <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                        <ul>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница от запоя</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Экстренное вытрезвление</a>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="main-items">
+                        <a href="#">Лечение от наркомании</a>
+                        <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                        <ul>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница от запоя</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Экстренное вытрезвление</a>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="main-items">
+                        <a href="#">Реабилитация</a>
+                        <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                        <ul>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница от запоя</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="#">Экстренное вытрезвление</a>
+                            </li>
+                          </ul>
+                    </li>
+                </ul> -->
+                <ul class="bottomMenu">
+                    <li class="menu-item">
+                        <a class="dropbtn">Выход из запоя
+                            <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                          </a>
+                          <ul class="dropdown-content">
+                                <li>
+                                    <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                    <a href="">Комплексная диагностика</a>
+                                </li>
+                                <li>
+                                    <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                    <a href="">Капельница при алкогольной интоксикации</a>
+                                </li>
+                                <li>
+                                    <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                    <a href="">Экстренное вытрезвление</a>
+                                </li>
+                          </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="dropbtn">Алкоголизм
+                            <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                          </a>
+                          <ul class="dropdown-content">
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Комплексная диагностика</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Экстренное вытрезвление</a>
+                            </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="dropbtn">
+                            Кодирование
+                            <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                          </a>
+                          <ul class="dropdown-content">
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Комплексная диагностика</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Экстренное вытрезвление</a>
+                            </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="dropbtn">
+                            Лечение алкоголизма
+                            <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                          </a>
+                          <ul class="dropdown-content">
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Комплексная диагностика</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Экстренное вытрезвление</a>
+                            </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="dropbtn">
+                            Лечение наркомании
+                            <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                          </a>
+                          <ul class="dropdown-content">
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Комплексная диагностика</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Экстренное вытрезвление</a>
+                            </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="dropbtn">
+                            Реабилитация
+                            <i><img src="./assets/img/icons/arrow.svg" alt="" srcset=""></i>
+                          </a>
+                          <ul class="dropdown-content">
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Комплексная диагностика</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Капельница при алкогольной интоксикации</a>
+                            </li>
+                            <li>
+                                <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                                <a href="">Экстренное вытрезвление</a>
+                            </li>
+                      </ul>
+                    </li>
+                </ul>
+                
+            </div>
+            
+    </div>
+    <div class="hero-block">
+        <div class="content-block">
+            <h1 class="hero-head">
+                Частная наркологическая клиника в Москве
+            </h1>
+            <div class="hero-bullet-list">
+                <div class="items">
+                    <p class="num">01</p>
+                    <p class="desc">Гарантия анонимности</p>
+                </div>
+                <div class="items">
+                    <p class="num">02</p>
+                    <p class="desc">В стационаре и на дому</p>
+                </div>
+                <div class="items">
+                    <p class="num">03</p>
+                    <p class="desc">Приезд врача в течении 40 минут</p>
+                </div>
+                <div class="items">
+                    <p class="num">04</p>
+                    <p class="desc">Реабилитация с пожизненной гарантией от срыва</p>
+                </div>
+            </div>
+            <div class="hero-form">
+                <form action="" method="post">
+                    <h1>Отправьте заявку или напишите нам в WhatsApp</h1>
+                    <div class="input-block">
+                        <div class="name-input">
+                            <i class="name-icons"></i>
+                            <input type="text" class="input-with-icon" maxlength="25" data-icon="fa-user" name="" id="name-hero-input" placeholder="Имя">
+                        </div>
+                      <div class="tel-input">
+                        <i class="tel-icons"></i>
+                        <input type="tel" name="" maxlength="11"  id="tel-hero-input" placeholder="Телефон">
+                        
+                      </div>
+                        
+                    </div>
+                    <button type="submit" id="btn-hero">Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="pic-block">
+            <img class="doc" src="./assets/img/doctor.png" alt="" srcset="">
+            <img class="decoration" src="./assets/img/decorations.png" alt="" srcset="">
+            <img  class="decorationMobile"src="./assets/img/decorationMobile.png" alt="" srcset="">
+        </div>
+    </div>
+    <div class="service">
+        <h2 class="head">
+            Наши услуги
+        </h2>
+        <div class="service-card-block">
+            <div class="card">
+                <div class="desc">
+                <h3>Алкоголизм</h3>
+                <ul class="service-list">
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Лечение алкоголизма как на дому, так и в стационаре</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Реабилитационный центр для лиц, страдающих алкогольной зависимостью</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Реабилитационный центр для лиц, страдающих алкогольной зависимостью</a>
+                    </li>
+                </ul>
+            </div>
+                
+                <div class="more">
+                    <span></span>
+                    <a href="">Уз6нать больше <img src="./assets/img/icons/arrowmore.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="desc">
+                <h3>Кодирование алкоголизма</h3>
+                <p>Различные методитики кодирования от алкоголизма:</p>
+                
+                <ul class="service-list">
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">лазерное кодирование,</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">кодирование уколом и др</a>
+                    </li>
+                </ul>
+            </div>
+                
+                <div class="more">
+                    <span></span>
+                    <a href="">Уз6нать больше <img src="./assets/img/icons/arrowmore.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="desc">
+                <h3>Наркомания</h3>
+                <p>Лечение от:</p>
+                
+                <ul class="service-list">
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">мефедрона,</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">спайса,</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">героина и др.</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Реабилитационный центр для наркозависимых</a>
+                    </li>
+                </ul>
+            </div>
+                
+                <div class="more">
+                    <span></span>
+                    <a href="">Уз6нать больше <img src="./assets/img/icons/arrowmore.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="desc">
+                <h3>Вывод из запоя</h3>
+                <ul class="service-list">
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Вывод из запоя на дому</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Капельница от алкоголя на дому</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Капельница при алкогольной интоксикации</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Экстренный вызов</a>
+                    </li>
+                </ul>
+            </div>
+                
+                <div class="more">
+                    <span></span>
+                    <a href="">Уз6нать больше <img src="./assets/img/icons/arrowmore.svg" alt=""></a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <div class="desc">
+                <h3>Психиатрия</h3>
+                
+                <ul class="service-list">
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Оказание психиатрической и психологической помощи лицам с зависимостью</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Психотерапевт на дому</a>
+                    </li>
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Психиатр на дому</a>
+                    </li>
+                    
+                </ul>
+            </div>
+                
+                <div class="more">
+                    <span></span>
+                    <a href="">Уз6нать больше <img src="./assets/img/icons/arrowmore.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="desc">
+                <h3>Наркологическая скорая</h3>
+               
+                
+                <ul class="service-list">
+                    <li>
+                        <i><img src="./assets/img/icons/dote.svg" alt="" srcset=""></i>
+                        <a href="">Оказание экстренной медицинской помощи с выездом бригады</a>
+                    </li>  
+                </ul>
+            </div>
+                
+                <div class="more">
+                    <span></span>
+                    <a href="">Уз6нать больше <img src="./assets/img/icons/arrowmore.svg" alt=""></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="contentInfo">
+        <div class="main-cont">
+        <div class="whereWe">
+            <div class="text-info">
+                
+                <h4>Наркологическая клиника в Москве: круглосуточное оказание услуг с выездом на дом</h4>
+                <p>Одни из наиболее опасных хронических заболеваний, от которых каждый год страдают тысячи пациентов, это алкоголизм и наркомания. Из-за патологической тяги к спиртным напиткам и запрещенным веществам у многих разрушается здоровье и деградирует личность, они лишаются работы, семьи и дома, нередко оказываясь на улице. Все это факторы, повышающие вероятность преждевременной смерти, которая может наступить в любой момент. Шанс исправить ситуацию коренным образом есть, если обратиться за медицинской помощью в наркологическую клинику. Врачи проводят эффективную комплексную терапию, добиваясь хороших результатов, благодаря индивидуальному подходу к каждому человеку.</p>
+            </div>
+            <div class="picInfo">
+                <img src="./assets/img/imgInfo.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="peculiarities">
+            <img src="./assets/img/imgPer.png" alt="" srcset="">
+            <div class="per-items">
+                <h4>Особенности лечения в частной наркологической клинике</h4>
+                <p>Многие семьи и зависимые тянут с тем, чтобы начать проходить комплексную терапию в течение долгого времени, опасаясь огласки. В этом случае проблема решается, благодаря обращению в платную наркологическую клинику. Здесь каждому пациенту дают следующие гарантии:</p>
+                <div class="items">
+                    <p><span>01</span>В отличие от государственной больницы зависимого не ставят на учет в  наркологический диспансер. Информация о пациенте не покидает пределов медицинского учреждения, квалифицированные врачи обеспечивают полную В частной наркологической клинике доступные цены на все услуги. Клиенты могут получить предварительную бесплатную консультацию. Каждому предлагают несколько терапевтических программ по разной стоимости, чтобы лечение могли пройти алко- и наркозависимые с высокими и низкими доходами.</p>
+                </div>
+                <div class="items">
+                    <p><span>02</span>В частной наркологической клинике доступные цены на все услуги. Клиенты могут получить предварительную бесплатную консультацию. Каждому предлагают несколько терапевтических программ по разной стоимости, чтобы лечение могли пройти алко- и наркозависимые с высокими и низкими доходами.</p>
+                </div>
+                <div class="items">
+                    <p><span>03</span>Чтобы исключить вероятность срыва, пациента на время реабилитации помещают в закрытое учреждение. В этом случае он не сорвется, так как точно не встретится со старой компанией, в которой принимал наркотики или употреблял алкоголь. Если требуется, его отправляют в один из филиалов крупной сети, расположенный в другом городе или области.</p>
+                </div>
+                <div class="items">
+                    <p><span>04</span>Бригада опытных наркологов оперативно отправляется на выезд по любому адресу клиента. Специалисты работают круглосуточно без выходных дней и праздников.</p>
+                </div>
+                <div class="items">
+                    <p><span>05</span>Если состояние пациента стабильное, ему оказывают помощь амбулаторно. Госпитализация в стационар требуется, когда существует опасность резкого ухудшения здоровья человека, отказа внутренних органов, обострения хронических расстройств.</p>
+                </div>
+                <div class="items">
+                    <p><span>06</span>В наркологической клинике пациент на протяжении всего терапевтического курса анонимно остается в комфортабельной палате под круглосуточным медицинским наблюдением. Его обеспечивают всем необходимым, в том числе полноценным питанием, чтобы ускорить восстановление.</p>
+                </div>
+                <div class="items">
+                    <p><span>07</span>наблюдением. Его обеспечивают всем необходимым, в том числе полноценным питанием, чтобы ускорить восстановление.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+            <div class="info-block">
+                <div class="logo-block">
+                    <img src="./assets/img/icons/Logo.svg" alt="" srcset="">
+                </div>
+            
+            <div class="info-items">
+                <div class="item">
+                    <img src="./assets/img/icons/footer/icon.svg" alt="" srcset="">
+                    <p class="urgency">Срочный вызов врача</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/icons/footer/icon-1.svg" alt="" srcset="">
+                    <p class="">+7 (927) 540-65-37</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/icons/footer/icon-2.svg" alt="" srcset="">
+                    <p class="">Москва</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/icons/footer/icon-3.svg" alt="" srcset="">
+                    <p class="">info@alcovrach.ru</p>
+                </div>
+            </div>
+            </div>
+            <div class="call-form">
+                <form action="">
+                    <h3>Напишите нам</h3>
+                    <div class="input-block">
+                        <div class="name-input">
+                            <i class="name-icons"></i>
+                            <input type="text" class="input-with-icon" maxlength="25" data-icon="fa-user" name="" id="" placeholder="Имя">
+                        </div>
+                      <div class="tel-input">
+                        <i class="tel-icons"></i>
+                        <input type="tel" name="" maxlength="11" id="" placeholder="Телефон">
+                        
+                      </div>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Введите свое сообщение"></textarea>
+                    <button type="submit">Отправить заявку</button>
+                </form>
+            </div>
+            <div class="links">
+                <h3>Полезные ссылки</h3>
+                <div class="links-block">
+                    <div class="first-block">
+                        <li>Наркомания</li>
+                        <li>Алкоголизм</li>
+                        <li>Реабилитация</li>
+                        <li>Кодирование</li>
+                        <li>
+                            <div class="social-links">
+                                <a href=""><img src="./assets/img/icons/soc/wa.svg" alt="" srcset=""></a>
+                                <a href=""><img src="./assets/img/icons/soc/vk.svg" alt="" srcset=""></a>
+                                <a href=""><img src="./assets/img/icons/soc/tg.svg" alt="" srcset=""></a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="second-block">
+                        <li>Цены</li>
+                        <li>Отзывы</li>
+                        <li>Контакты</li>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/mailer.js"></script>
+</body>
+</html>
